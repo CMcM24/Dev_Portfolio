@@ -1,0 +1,14 @@
+.jumbotron {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/code2.jpg");
+    background-size: cover;
+    height: 400px;
+    opacity: 25%;
+
+    font-weight: bold;
+    color: aliceblue;
+  }
+
+  body{
+      background-color: rgb(31, 31, 31);
+  }
