@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <title>Colin McMahon: Portfolio</title>
 </head>
@@ -28,13 +37,13 @@
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         More:
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Contact Info</a>
-                        <a class="dropdown-item" href="#">Colin on Github</a>
+                    <div class="dropdown-menu" aria-labelledby="navbardrop">
+                        <a class="dropdown-item" href="contact.html">Contact Info</a>
+                        <a class="dropdown-item" href="https://github.com/CMcM24">Colin on Github</a>
                     </div>
                 </li>
             </ul>
@@ -54,55 +63,70 @@
     <div class="container">
         <div class="card-columns" id="portfolio-cards">
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">Giphy API App</h5>
                     <p class="card-text">This app allows the user to search for gifs using the giphy API. There are a
                         number of buttons that search the API for gifs related to the button pressed. The user can also
                         create their own buttons to search with.</p>
-                        <a href="https://cmcm24.github.io/Giphy-Portfolio/">Live Site</a>
+                    <a href="https://cmcm24.github.io/Giphy-Portfolio/">Live Site</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">"Train Schedule" App</h5>
                     <p class="card-text">This app does not actually pull train schedules, but is in fact a demonstration
-                        of Google's Firebase API. The data generated is pulled from Firebase</p>
-                        <a href="https://cmcm24.github.io/TrainSchedule-Repo/">Live Site</a>
+                        of Google's Firebase API. The data you input is pushed to and pulled from Firebase</p>
+                    <a href="https://cmcm24.github.io/TrainSchedule-Repo/">Live Site</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">Word-Guess-Game</h5>
-                    <p class="card-text">This is a simple game where the goal is to guess the name on the action movie!</p>
+                    <p class="card-text">This is a simple game where the goal is to guess the name of the action movie.
+                    </p>
                     <a href="https://cmcm24.github.io/Word-Guess-Game/">Live Site</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">Event Finding App - "Trivent"</h5>
-                    <p class="card-text">This was the first "major" project I worked on with a group of my fellow students as part of the Rutgers Coding Bootcamp. Simple event finding app using a couple of APIs get get and display data.</p>
+                    <p class="card-text">This was the first "major" project I worked on with a group of fellow
+                        developers. Simple event finding app using a couple of APIs
+                        get get and display data.</p>
                     <a href="https://jk1138.github.io/Project1/">Live Site</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">LIRI - CLI</h5>
-                    <p class="card-text">My first project using Node.js. The app takes CLI inputs to decide which of three possible APIs to search through for your specified search term</p>
+                    <p class="card-text">My first project using Node.js. The app takes CLI inputs to decide which of
+                        three possible APIs to search through for your specified search term</p>
                     <a href="https://github.com/CMcM24/LIRI-Repo">Github Repo</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets\images\rcb.png" class="card-img-top" alt="rcb">
+                <img src="assets\images\glasses.jpg" class="card-img-top" alt="glasses">
                 <div class="card-body">
                     <h5 class="card-title">Bamazon - CLI</h5>
-                    <p class="card-text">This project allows a user to make "purchases" from a "Bamazon" application.</p>
+                    <p class="card-text">This project allows a user to make "purchases" from a "Bamazon" application.
+                    </p>
                     <a href="https://cmcm24.github.io/BamazonHW-Repo/">Github Repo</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-12 footfont text-center">
+            <h6>Colin McMahon &copy; 2019 </h6>
+        </div>
+    </div>
+
+</body>
+
+</html>
